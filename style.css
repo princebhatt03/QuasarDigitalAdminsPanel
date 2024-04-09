@@ -1,0 +1,1060 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+/*---------------------------------------------------- Page 1 ---------------------------------------------------------------- */
+
+#page1 {
+  /* overflow: hidden; */
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: #f5f7fa;
+  transition: all ease-in-out 0.6s;
+}
+#page2 {
+  /* overflow: hidden; */
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: #f5f7fa;
+  transition: all ease-in-out 0.6s;
+}
+#page3 {
+  /* overflow: hidden; */
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: #f5f7fa;
+  transition: all ease-in-out 0.6s;
+}
+#page4 {
+  /* overflow: hidden; */
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: #f5f7fa;
+  transition: all ease-in-out 0.6s;
+}
+#page5 {
+  /* overflow: hidden; */
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: #f5f7fa;
+  transition: all ease-in-out 0.6s;
+}
+#page6 {
+  /* overflow: hidden; */
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: #f5f7fa;
+  transition: all ease-in-out 0.6s;
+}
+#page7 {
+  /* overflow: hidden; */
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: #f5f7fa;
+  transition: all ease-in-out 0.6s;
+}
+#page8 {
+  /* overflow: hidden; */
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: #f5f7fa;
+  transition: all ease-in-out 0.6s;
+}
+#page9 {
+  /* overflow: hidden; */
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: #f5f7fa;
+  transition: all ease-in-out 0.6s;
+}
+#navbar {
+  background-color: #222834;
+  height: 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all ease-in-out 0.6s;
+}
+.card-body {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1rem;
+  overflow-x: scroll;
+}
+.card-body::-webkit-scrollbar {
+  display: none;
+}
+.icon1 {
+  padding: 0 4px;
+  position: relative;
+  top: 2.4px;
+}
+.top {
+  position: relative;
+  top: 0;
+}
+.icon2 {
+  padding: 0 4px;
+}
+.icon3 {
+  text-decoration: none;
+  color: white;
+  padding: 0 4px;
+}
+.page1-container1 {
+  width: 100%;
+  height: calc(100% - 8%);
+  position: relative;
+  display: flex;
+  /* background-color: yellow; */
+}
+/* .circle-prince {
+  background-color: rgba(0, 0, 0, 0.24);
+  display: none;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+} */
+.card-prince {
+  padding: 2.2rem;
+}
+.row-prince-parent {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: pink; */
+}
+.row-prince {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: yellow; */
+}
+.row-prince-parent2 {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  overflow: hidden;
+  align-items: center;
+  /* background-color: slateblue; */
+  display: flex;
+}
+.page2-container1 {
+  width: 100%;
+  height: calc(100% - 8%);
+  position: relative;
+  display: flex;
+  /* background-color: yellow; */
+}
+.page2-right1-container1 {
+  width: 100%;
+  height: 100%;
+  /* background-color: red; */
+}
+.page2-right-part1 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: pink; */
+  position: relative;
+}
+.part1-child-page2 {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  /* background-color: peru; */
+}
+.inline-block {
+  display: inline-block;
+  top: 0;
+  position: relative;
+}
+.inline-block h1 {
+  text-align: center;
+}
+.part2-child-page2 {
+  width: 80%;
+  height: 80%;
+  overflow-y: scroll;
+  /* background-color: peru; */
+}
+.part2-child-page2::-webkit-scrollbar {
+  display: none;
+}
+.page2-right-part2 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: purple; */
+  position: relative;
+}
+.left {
+  width: 80px;
+  height: 100%;
+  z-index: 100;
+  position: relative;
+  transition: all ease-in-out 0.6s;
+  background-color: #222834;
+}
+.right {
+  width: calc(100% - 80px);
+  height: 100%;
+  position: relative;
+  overflow: scroll;
+  /* background-color: teal; */
+}
+.right::-webkit-scrollbar {
+  display: none;
+}
+.left1 {
+  width: 100%;
+  height: 10%;
+  /* background-color: powderblue; */
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.left2 {
+  width: 100%;
+  height: 10%;
+  /* background-color: peachpuff; */
+  justify-content: center;
+  cursor: pointer;
+}
+.left3 {
+  width: 100%;
+  height: 10%;
+  /* background-color: peru; */
+  cursor: pointer;
+  justify-content: center;
+}
+.left4 {
+  width: 100%;
+  height: 10%;
+  /* background-color: turquoise; */
+  justify-content: center;
+  cursor: pointer;
+}
+.left5 {
+  width: 100%;
+  height: 10%;
+  /* background-color: tomato; */
+  justify-content: center;
+  cursor: pointer;
+}
+.left6 {
+  width: 100%;
+  height: 10%;
+  /* background-color: pink; */
+  justify-content: center;
+  cursor: pointer;
+}
+.left7 {
+  width: 100%;
+  height: 10%;
+  /* background-color: black; */
+  cursor: pointer;
+  justify-content: center;
+}
+.left8 {
+  width: 100%;
+  height: 10%;
+  cursor: pointer;
+  /* background-color: green; */
+  justify-content: center;
+}
+.left9 {
+  width: 100%;
+  cursor: pointer;
+  height: 10%;
+  /* background-color: grey; */
+  justify-content: center;
+}
+.left10 {
+  width: 100%;
+  height: 10%;
+  /* background-color: gold; */
+  justify-content: center;
+  cursor: pointer;
+}
+#btn1 {
+  width: 35px;
+  height: auto;
+  padding: 10px 0;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  z-index: 100;
+  font-size: 12px;
+  top: 40%;
+  position: fixed;
+  color: #222834;
+  font-weight: bold;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #ffcc7d;
+  transition: all ease 0.4s;
+}
+.drop-menu-p {
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  z-index: 99;
+  border-radius: 5px;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  text-align: right;
+  padding: 2px 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: all ease-in-out 0.6s;
+}
+.drop-menu-p h5 {
+  color: #222834;
+}
+.drop-menu-p h5 {
+  font-size: 18px;
+}
+.drop-menu-p span {
+  padding-right: 8px;
+}
+.overlay-prince {
+  width: 100%;
+  min-height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  z-index: 99;
+  display: none;
+}
+.span1 {
+  padding: 0 3px;
+  color: #bfb07b;
+  display: none;
+}
+.color-gold {
+  color: #bfb07b;
+}
+.bar-prince {
+  width: 100%;
+}
+.prince-cont {
+  justify-content: center;
+  align-items: center;
+}
+.right1-container1 {
+  width: 100%;
+  height: 100%;
+  /* overflow-x: hidden; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+  position: relative;
+}
+.right-final-cont {
+  width: 80%;
+  height: 100%;
+  /* background-color: navy; */
+}
+
+/*------------------------------------------------- Page 2 -------------------------------------------------- */
+
+.page2-right1-container1 {
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.center-prince {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  min-height: 100%;
+  position: relative;
+  /* background-color: pink; */
+}
+.flex-prince {
+  width: 100%;
+  gap: 10px;
+  height: auto;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-prince2 {
+  width: 100%;
+  gap: 10px;
+  height: auto;
+  /* background-color: palegreen; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*---------------------------------------------------- Page 3 --------------------------------------------------------------- */
+
+.page3-right1-container1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+  position: relative;
+}
+.profile-cont {
+  width: 100%;
+  height: 100%;
+  /* background-color: pink; */
+  overflow: scroll;
+}
+.profile-cont::-webkit-scrollbar {
+  display: none;
+}
+.container {
+  position: relative;
+  top: 5%;
+}
+/* .main-body {
+  padding: 15px;
+} */
+.card {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0 solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  margin-bottom: 5px;
+}
+
+/* .card-body {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1rem;
+} */
+
+.gutters-sm {
+  margin-right: -8px;
+  margin-left: -8px;
+}
+
+.gutters-sm > .col,
+.gutters-sm > [class*='col-'] {
+  padding-right: 8px;
+  padding-left: 8px;
+}
+.mb-3,
+.my-3 {
+  margin-bottom: 1rem !important;
+}
+
+.bg-gray-300 {
+  background-color: #e2e8f0;
+}
+.h-100 {
+  height: 100% !important;
+}
+.shadow-none {
+  box-shadow: none !important;
+}
+
+/*---------------------------------------------------- Page 4 --------------------------------------------------------------- */
+
+.page4-container1 {
+  width: 100%;
+  height: calc(100% - 8%);
+  position: relative;
+  display: flex;
+  /* background-color: yellow; */
+}
+.page4-right1 {
+  width: 100%;
+  height: 100%;
+  display: block;
+  /* background-color: slateblue; */
+  position: relative;
+}
+.page4-right-container1 {
+  width: 100%;
+  height: 50%;
+  position: relative;
+  /* background-color: red; */
+}
+.page4-right-container2 {
+  width: 100%;
+  height: 50%;
+  position: relative;
+  /* background-color: blue; */
+}
+.page4-part1 {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  /* background-color: pink; */
+}
+.page4-part1 h3 {
+  padding-top: 4px;
+  padding-left: 20px;
+  font-size: clamp(0.875rem, -1.2679rem + 4.5714vw, 1.875rem);
+}
+.page4-part2 {
+  width: 100%;
+  height: calc(100% - 20%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: palevioletred; */
+}
+.page4-part2-child {
+  width: 80%;
+  height: 50%;
+  border-radius: 10px;
+  transition: all ease-in-out 0.5s;
+  background-color: white;
+}
+.page4-part2-child p {
+  color: #939ba2;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+.page4-right-nav {
+  width: 100%;
+  height: 20%;
+  position: absolute;
+  display: flex;
+  bottom: 0;
+  /* background-color: peru; */
+}
+.nav-part1 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  /* background-color: green; */
+}
+.nav-part1 p {
+  padding-left: 10px;
+  font-size: clamp(0.5rem, -0.4375rem + 2vw, 0.9375rem);
+  color: #939ba2;
+  font-weight: bold;
+  cursor: pointer;
+}
+.nav-part2 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: center;
+  align-items: center;
+  /* background-color: greenyellow; */
+}
+.nav-part2 ul {
+  width: 100%;
+  list-style: none;
+}
+.nav-part2 a {
+  width: auto;
+  position: relative;
+  float: right;
+  text-decoration: none;
+  color: #939ba2;
+  font-weight: bold;
+  display: flex;
+  cursor: pointer;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  padding: 2px 10px;
+}
+
+/*---------------------------------------------------- Page 5 --------------------------------------------------------------- */
+
+.page5-container1 {
+  width: 100%;
+  height: calc(100% - 8%);
+  position: relative;
+  display: flex;
+  /* background-color: yellow; */
+}
+.page5-right1-container1 {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  /* background-color: pink; */
+}
+.page5-form-child {
+  width: 90%;
+  height: 100%;
+  /* background-color: blue; */
+}
+
+/*---------------------------------------------------- Page 6 ------------------------------------------------ */
+
+.page6-container1 {
+  width: 100%;
+  height: calc(100% - 8%);
+  position: relative;
+  display: flex;
+  /* background-color: yellow; */
+}
+.page6-right1-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+  position: relative;
+}
+.page6-right-part1 {
+  width: 50%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: saddlebrown; */
+}
+.page6-right-part2 {
+  width: 50%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: slategray; */
+}
+.card1 {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: greenyellow; */
+}
+.card2 {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: white; */
+}
+
+/*---------------------------------------------------- Page 7 --------------------------------------------------------------- */
+
+.page7-container1 {
+  width: 100%;
+  height: calc(100% - 8%);
+  position: relative;
+  display: flex;
+  /* background-color: yellow; */
+}
+.page7-right1-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+}
+.cont-prince {
+  width: 80%;
+  height: 95%;
+  /* background-color: pink; */
+}
+.page7-right-part1 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  /* background-color: pink; */
+}
+.page7-right-part2 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  /* background-color: salmon; */
+}
+.text-para1 {
+  width: 80%;
+  height: 80%;
+  /* background-color: white; */
+}
+.text-para2 {
+  width: 80%;
+  height: 80%;
+  font-size: clamp(0.625rem, -0.4464rem + 2.2857vw, 1.125rem);
+  /* background-color: white; */
+}
+.colo {
+  color: #939ba2;
+}
+
+/*---------------------------------------------------- Page 8 --------------------------------------------------------------- */
+
+.page8-container1 {
+  width: 100%;
+  height: calc(100% - 8%);
+  position: relative;
+  display: flex;
+  /* background-color: yellow; */
+}
+.page8-right-container1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: pink; */
+  position: relative;
+}
+
+/*---------------------------------------------------- Page 9 --------------------------------------------------------------- */
+
+.page9-container1 {
+  width: 100%;
+  height: calc(100% - 8%);
+  position: relative;
+  display: flex;
+  /* background-color: yellow; */
+}
+.page9-right-container1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+}
+
+/*---------------------------------------------------- Mobile View ----------------------------------------------------------- */
+
+@media screen and (max-width: 750px) {
+  #btn1 {
+    display: none;
+  }
+  .first {
+    width: 100%;
+    height: 50%;
+    /* background-color: peru; */
+  }
+  .second {
+    width: 100%;
+    height: 50%;
+    /* background-color: yellow; */
+  }
+  .table-container {
+    width: 100%;
+    height: 80%;
+    position: relative;
+    /* background-color: palegoldenrod; */
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-size: 10px;
+  }
+  .page2-right1-container1 {
+    width: 100%;
+    height: 100%;
+    display: block;
+    /* background-color: red; */
+  }
+  .page2-right-part1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: pink; */
+    position: relative;
+  }
+  .part1-child-page2 {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* background-color: peru; */
+  }
+  .inline-block {
+    display: inline-block;
+    top: 10px;
+    position: relative;
+  }
+  .inline-block h1 {
+    text-align: center;
+  }
+  .part2-child-page2 {
+    width: 80%;
+    height: 80%;
+    /* background-color: peru; */
+  }
+  .page2-right-part2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: purple; */
+    position: relative;
+  }
+  .page3-right1-container1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    position: relative;
+  }
+  .nav-part2 a {
+    text-decoration: none;
+    color: #939ba2;
+    font-weight: bold;
+    font-size: clamp(0.75rem, 0.3482rem + 0.8571vw, 0.9375rem);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 4px;
+    cursor: pointer;
+  }
+  .page5-right1-container1 {
+    width: 100%;
+    height: 100%;
+    /* background-color: pink; */
+  }
+  .page5-right-part1 {
+    width: 100%;
+    height: 50%;
+    /* background-color: sienna; */
+  }
+  .page5-right-part2 {
+    width: 100%;
+    height: 50%;
+    left: 0;
+    /* background-color: seagreen; */
+  }
+  .form2 {
+    padding: 0 2px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 0%;
+    /* background-color: black; */
+  }
+  .top-pv {
+    position: relative;
+    top: 0%;
+  }
+  .page6-right1-container {
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    position: relative;
+  }
+  .page6-right-part1 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    /* background-color: saddlebrown; */
+  }
+  .page6-right-part2 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    /* background-color: slategray; */
+  }
+  .page7-right1-container {
+    width: 100%;
+    height: 100%;
+    /* display: block; */
+    /* background-color: red; */
+  }
+  .page7-right-part1 {
+    width: 100%;
+    height: 100%;
+    /* background-color: pink; */
+  }
+  .page7-right-part2 {
+    width: 100%;
+    height: 50%;
+    /* background-color: salmon; */
+  }
+}
+
+/*---------------------------------------------------- Dark Theme ------------------------------------------------------------ */
+
+.dark-theme #navbar {
+  background-color: #222;
+}
+.dark-theme #navbar a {
+  color: #fff;
+}
+.dark-theme .left {
+  background-color: #222;
+  color: #fff;
+}
+.dark-theme #page1 {
+  background-color: #444;
+  color: #fff;
+}
+.dark-theme #page2 {
+  background-color: #444;
+  color: #fff;
+}
+.dark-theme #page3 {
+  background-color: #444;
+  color: #fff;
+}
+.dark-theme #page4 {
+  background-color: #444;
+  color: #fff;
+}
+.dark-theme #page5 {
+  background-color: #444;
+  color: #fff;
+}
+.dark-theme #page6 {
+  background-color: #444;
+  color: #fff;
+}
+.dark-theme #page7 {
+  background-color: #444;
+  color: #fff;
+}
+.dark-theme th {
+  background-color: #222;
+  color: #fff;
+}
+.dark-theme textarea {
+  background-color: #444;
+  color: #fff;
+}
+.dark-theme .form-control {
+  background-color: #444;
+  color: #fff;
+}
+.dark-theme #page8 {
+  background-color: #444;
+  color: #fff;
+}
+.dark-theme #page9 {
+  background-color: #444;
+  color: #fff;
+}
+.dark-theme .colo {
+  color: white;
+}
+.dark-theme .input-group-text {
+  background-color: #444;
+  color: #fff;
+}
+.dark-theme .drop-menu-p {
+  background-color: #222;
+}
+.dark-theme .drop-menu-p h5 {
+  color: #fff;
+}
+.dark-theme .card {
+  background-color: #222;
+  color: white;
+}
+.dark-theme .card input {
+  background-color: #444;
+  color: white;
+}
+.dark-theme td {
+  background-color: #222;
+  color: white;
+}
+.dark-theme li {
+  background-color: #222;
+  color: white;
+}
+.dark-theme .d-card {
+  background-color: #222;
+  color: white;
+}
+.dark-theme select {
+  background-color: #444;
+  color: whitesmoke;
+}
+.dark-theme .ul-dark {
+  background-color: #222;
+  color: white;
+}
+.dark-theme input {
+  background-color: #222;
+  color: white;
+}
+.dark-theme input:focus {
+  background-color: #222;
+  color: white;
+}
+.dark-theme .page4-part2-child {
+  background-color: #222;
+  color: white;
+}
+
+/* Website Done */
+/* Website Done */
